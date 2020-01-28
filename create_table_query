@@ -1,0 +1,47 @@
+-- Create tables for raw data to be loaded into
+CREATE TABLE happiness_2015 (
+country TEXT PRIMARY KEY,
+happiness_rank float, 
+happiness_score float,
+health_life_expectancy float, 
+freedom float, 
+trust_government_corruption float
+);
+
+CREATE TABLE happiness_2016 (
+country TEXT PRIMARY KEY,
+happiness_rank float, 
+happiness_score float,
+health_life_expectancy float, 
+freedom float, 
+trust_government_corruption float
+);
+
+CREATE TABLE happiness_2017 (
+country TEXT PRIMARY KEY,
+happiness_rank float, 
+happiness_score float,
+health_life_expectancy float, 
+freedom float, 
+trust_government_corruption float
+);
+
+CREATE TABLE happiness_2018 (
+country TEXT PRIMARY KEY,
+happiness_rank float, 
+happiness_score float,
+health_life_expectancy float, 
+freedom float, 
+trust_government_corruption float
+);
+
+CREATE TABLE happiness_2019 (
+country TEXT PRIMARY KEY,
+happiness_rank float, 
+happiness_score float,
+health_life_expectancy float, 
+freedom float, 
+trust_government_corruption float
+);
+
+
